@@ -3529,7 +3529,7 @@
     )
     (pin "1" (uuid c5f4fa42-25b3-43e1-949e-98453be6d3b0))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR051") (unit 1)
         )
@@ -3557,13 +3557,16 @@
     (property "Datasheet" "~" (at 205.74 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 205.74 24.13 0)
+    (property "LCSC" "C517529" (at 205.74 24.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C517529" (at 205.74 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a8abbb6a-6846-4799-9b2d-8a36be494556))
     (pin "2" (uuid efde1342-3398-41f9-87dc-ff7e6302c51c))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R29") (unit 1)
         )
@@ -3593,7 +3596,7 @@
     )
     (pin "1" (uuid 93ae359b-16fb-4a5b-a7bf-c4502498bc5d))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#FLG015") (unit 1)
         )
@@ -3618,7 +3621,7 @@
     )
     (pin "1" (uuid 05597d0f-969e-411f-a808-c835dc9247cf))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR038") (unit 1)
         )
@@ -3641,13 +3644,16 @@
     (property "Datasheet" "~" (at 139.7 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 139.7 60.96 0)
+    (property "LCSC" "C11702" (at 139.7 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C11702" (at 139.7 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 37a03b3d-28f6-49de-a6aa-221b1108820e))
     (pin "2" (uuid 7767c184-86bf-421a-8ac8-5612509641f5))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R33") (unit 1)
         )
@@ -3677,7 +3683,7 @@
     )
     (pin "1" (uuid 6813b907-bfb0-4b36-8b00-749060982a3d))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR049") (unit 1)
         )
@@ -3705,13 +3711,16 @@
     (property "Datasheet" "~" (at 146.05 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 146.05 181.61 0)
+    (property "LCSC" "C25900" (at 146.05 181.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C25900" (at 146.05 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 155c8982-519f-4a89-a91d-4f093532af44))
     (pin "2" (uuid c5c9a9f7-67cb-42b5-8c96-e48ca76c5b87))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R21") (unit 1)
         )
@@ -3740,6 +3749,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C529338" (at 44.45 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C529338" (at 44.45 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e3540d38-f825-4612-ba11-902d39a17679))
@@ -3791,7 +3803,7 @@
     (pin "8" (uuid 22ec198a-4741-44fe-bee3-fdab5341e5c5))
     (pin "9" (uuid b1ec98ee-21d4-42b8-ac1a-65a4b23e7649))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "U11") (unit 1)
         )
@@ -3816,7 +3828,7 @@
     )
     (pin "1" (uuid 422dc8b2-3a8e-4ae3-9789-0607f74b063f))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR057") (unit 1)
         )
@@ -3841,7 +3853,7 @@
     )
     (pin "1" (uuid 3a7e73a9-89de-4519-ab6e-ec4975b309be))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#FLG012") (unit 1)
         )
@@ -3864,13 +3876,16 @@
     (property "Datasheet" "~" (at 41.91 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 41.91 142.24 0)
+    (property "LCSC" "C25900" (at 41.91 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C25900" (at 41.91 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fe80d3e2-dd75-4829-96cb-a5b16c25878b))
     (pin "2" (uuid 707a8a26-df42-4ba1-8cef-548f8800c955))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R17") (unit 1)
         )
@@ -3900,7 +3915,7 @@
     )
     (pin "1" (uuid 578b060c-6948-437c-8404-e877e0b27ccd))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR022") (unit 1)
         )
@@ -3931,11 +3946,14 @@
     (property "LCSC" "C5148688" (at 88.9 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C5148688" (at 88.9 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid de271a2e-6519-4ac3-b044-015d5da6eaf2))
     (pin "2" (uuid 4b32f88f-1456-4761-8d8d-e059339d865f))
     (pin "3" (uuid dcbd2c06-0a08-4663-aa7a-53dc3ff581e0))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "U13") (unit 1)
         )
@@ -3965,7 +3983,7 @@
     )
     (pin "1" (uuid ea50d8df-1515-4b38-a235-08263c1eb368))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR029") (unit 1)
         )
@@ -3994,10 +4012,13 @@
     (property "LCSC" "C139168" (at 31.75 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C139168" (at 31.75 21.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid c878e7ff-5afe-4175-b28e-1289844864fd))
     (pin "2" (uuid 86c8fbb4-9550-46c7-94b0-fe82c71cabdf))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "FB11") (unit 1)
         )
@@ -4028,12 +4049,15 @@
     (property "LCSC" "C144395" (at 125.73 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C144395" (at 125.73 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid adfee67d-0a0c-4a7c-9aee-eab7573e5820))
     (pin "2" (uuid c5344282-af88-4350-aa5a-8ce84e1ed66f))
     (pin "3" (uuid bc5beb0a-c8e6-433c-be75-3533fcb37e59))
     (pin "4" (uuid a9cd87cb-3bab-459a-b921-9b4f641d7e09))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "J12") (unit 1)
         )
@@ -4061,13 +4085,16 @@
     (property "Datasheet" "~" (at 198.12 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 198.12 24.13 0)
+    (property "LCSC" "C517529" (at 198.12 24.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C517529" (at 198.12 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0cd5ecf9-613d-4c4c-819e-19c30278804f))
     (pin "2" (uuid 5d181dfb-f78b-48b5-b507-8024f1943ab7))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R26") (unit 1)
         )
@@ -4101,10 +4128,13 @@
     (property "LCSC" "C72043" (at 31.75 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C72043" (at 31.75 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e75e9e7a-c539-4661-9c69-9445014493a3))
     (pin "2" (uuid fb4bf9f9-60d9-4e4c-95a9-785c00528d76))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "D14") (unit 1)
         )
@@ -4135,13 +4165,16 @@
     (property "LCSC" "C5124976" (at 83.82 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C5124976" (at 83.82 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 6c3395ee-6c30-4dcb-a94c-c9929eefb372))
     (pin "2" (uuid 9e8e2f1c-2794-4326-949c-1ba124a3a7db))
     (pin "3" (uuid 0646ac4a-5f88-4d88-9c30-d3175b587c16))
     (pin "4" (uuid 52f11237-6f46-4d45-b7d4-db5742695467))
     (pin "5" (uuid 3d1c2abf-6538-49b9-83c8-7966740fcb94))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "U12") (unit 1)
         )
@@ -4167,10 +4200,13 @@
     (property "LCSC" "C8598" (at 34.29 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C8598" (at 34.29 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid a50bf0ae-d296-46c3-9450-7e8a727774d6))
     (pin "2" (uuid 178a542b-3ec0-491d-ba3e-37982869eba9))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "D15") (unit 1)
         )
@@ -4198,13 +4234,16 @@
     (property "Datasheet" "~" (at 160.02 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 160.02 97.79 0)
+    (property "LCSC" "C15195" (at 160.02 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C15195" (at 160.02 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3ac447d8-3e1d-480a-8287-a3821f256c8c))
     (pin "2" (uuid 42f40fce-be14-4d2e-846a-24a7f7eb76c2))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "C28") (unit 1)
         )
@@ -4233,10 +4272,13 @@
     (property "LCSC" "C72041" (at 21.59 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C72041" (at 21.59 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 0b2142fe-5b0f-4c5c-8bde-a6d68bf5252b))
     (pin "2" (uuid eb0ce0ee-3b1c-4b86-9ab5-c6a8d7686469))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "D12") (unit 1)
         )
@@ -4266,7 +4308,7 @@
     )
     (pin "1" (uuid dacdec4b-25d7-4a4f-8c7b-1d34ee07235b))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR030") (unit 1)
         )
@@ -4291,7 +4333,7 @@
     )
     (pin "1" (uuid d2e1e8ad-358f-4f9b-8196-591002ad70f1))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR020") (unit 1)
         )
@@ -4321,7 +4363,7 @@
     )
     (pin "1" (uuid 259c464d-7587-48b2-9c63-cb2271f6e3ff))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR036") (unit 1)
         )
@@ -4349,13 +4391,16 @@
     (property "Datasheet" "~" (at 200.66 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 200.66 24.13 0)
+    (property "LCSC" "C517529" (at 200.66 24.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C517529" (at 200.66 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a30e5bbc-d6cc-4d7f-b134-d295b5e365be))
     (pin "2" (uuid 4b0ae53a-bb7d-4dd5-9684-12a49de38c61))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R27") (unit 1)
         )
@@ -4385,7 +4430,7 @@
     )
     (pin "1" (uuid 64cdd475-1b71-42f1-8040-b309938a5cd0))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR023") (unit 1)
         )
@@ -4411,10 +4456,13 @@
     (property "LCSC" "C19702" (at 143.51 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C19702" (at 143.51 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid dd121519-f55d-4c2d-a440-184ee76556d8))
     (pin "2" (uuid 3153926f-d664-4365-9a0f-5e6d330854d2))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "C19") (unit 1)
         )
@@ -4444,7 +4492,7 @@
     )
     (pin "1" (uuid ea853758-d776-45cd-81a8-a4c83c1c3276))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR028") (unit 1)
         )
@@ -4472,13 +4520,16 @@
     (property "Datasheet" "~" (at 203.2 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 203.2 24.13 0)
+    (property "LCSC" "C517529" (at 203.2 24.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C517529" (at 203.2 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7a5cecac-a9fb-4587-b650-de21998ba940))
     (pin "2" (uuid eb002602-511c-4b88-8c41-8cb8da6edf40))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R28") (unit 1)
         )
@@ -4508,7 +4559,7 @@
     )
     (pin "1" (uuid 6ef5c817-b41b-4291-ad91-ff94dba2b256))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR042") (unit 1)
         )
@@ -4538,7 +4589,7 @@
     )
     (pin "1" (uuid 2a09bfa5-7925-431e-8f18-d6ba8250b97e))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR043") (unit 1)
         )
@@ -4572,10 +4623,13 @@
     (property "LCSC" "C72041" (at 26.67 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C72041" (at 26.67 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid d6dc5b66-40c3-48fc-82e8-4475c91f6fef))
     (pin "2" (uuid 4db25b22-54af-4815-bb31-96e6ada82e80))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "D13") (unit 1)
         )
@@ -4605,7 +4659,7 @@
     )
     (pin "1" (uuid 74137780-27b8-4942-aa23-6eb4e6d0360d))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR034") (unit 1)
         )
@@ -4633,13 +4687,16 @@
     (property "Datasheet" "~" (at 46.99 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 46.99 142.24 0)
+    (property "LCSC" "C25900" (at 46.99 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C25900" (at 46.99 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid da4e554b-4639-44d2-8606-10358563f287))
     (pin "2" (uuid e19278c4-48d6-4cbf-bf46-ee090a1e7bb6))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R18") (unit 1)
         )
@@ -4667,13 +4724,16 @@
     (property "Datasheet" "~" (at 232.41 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 232.41 154.94 0)
+    (property "LCSC" "C1525" (at 232.41 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C1525" (at 232.41 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4f405545-00a7-4aae-851b-c3b3ef8655ea))
     (pin "2" (uuid b0c792fb-bfda-4832-92be-c009351e7b69))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "C24") (unit 1)
         )
@@ -4696,13 +4756,16 @@
     (property "Datasheet" "~" (at 139.7 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 139.7 73.66 0)
+    (property "LCSC" "C11702" (at 139.7 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C11702" (at 139.7 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 49ceb4d3-f24a-443c-b436-c2a7df3b89d1))
     (pin "2" (uuid c2e27b80-f3d4-42fa-a07e-847ba6dadea7))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R38") (unit 1)
         )
@@ -4730,13 +4793,16 @@
     (property "Datasheet" "~" (at 154.94 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 154.94 97.79 0)
+    (property "LCSC" "C15195" (at 154.94 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C15195" (at 154.94 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 184f791e-f65b-437a-972e-e4a5f076a325))
     (pin "2" (uuid c3b321ad-5c5d-40d9-826d-d1732abd3782))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "C27") (unit 1)
         )
@@ -4761,7 +4827,7 @@
     )
     (pin "1" (uuid 8121c3a2-984b-4367-95b8-6b4bbb09f4c0))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR058") (unit 1)
         )
@@ -4786,7 +4852,7 @@
     )
     (pin "1" (uuid 15db9eeb-fd38-4aa0-bc2a-78438d96f896))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR016") (unit 1)
         )
@@ -4817,6 +4883,9 @@
     (property "LCSC" "C144397" (at 251.46 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C144397" (at 251.46 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 8717c5a5-77a0-4bc9-a8ef-ba4fe89760b8))
     (pin "2" (uuid 8336f415-4bd6-4c9c-93c4-232812f1d7da))
     (pin "3" (uuid 1d229660-0a59-4e27-a524-169c6ca87b8d))
@@ -4824,7 +4893,7 @@
     (pin "5" (uuid 8c09ee4b-c38b-435f-a4de-2060eccaad2a))
     (pin "6" (uuid 63cdbf74-fff0-4d34-b291-7fd61aa0db2a))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "J18") (unit 1)
         )
@@ -4849,7 +4918,7 @@
     )
     (pin "1" (uuid feee3645-f448-4e60-bae2-3909dcc8ff1c))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR011") (unit 1)
         )
@@ -4874,7 +4943,7 @@
     )
     (pin "1" (uuid e4dc0e14-11a9-499c-8bb8-8d8af7c5a63a))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR046") (unit 1)
         )
@@ -4900,6 +4969,9 @@
     (property "LCSC" "C2898761" (at 250.19 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C2898761" (at 250.19 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e89d32f1-a361-417f-8bc6-940e7e856ff0))
     (pin "2" (uuid cde71a02-7f39-421b-a6c4-bbef755afb0e))
     (pin "3" (uuid 64163f81-5a06-4203-8bfa-5ad3fe907247))
@@ -4910,7 +4982,7 @@
     (pin "8" (uuid 9e570d63-cae7-4225-b46e-e44f6e070dee))
     (pin "9" (uuid 77a53af1-fa05-494a-969e-685fec01bcd3))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "J14") (unit 1)
         )
@@ -4935,7 +5007,7 @@
     )
     (pin "1" (uuid dd0b4131-c2da-416c-9c2d-4ed1ca485bbe))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR044") (unit 1)
         )
@@ -4965,7 +5037,7 @@
     )
     (pin "1" (uuid 77a66e08-62d0-4a5d-90f4-c605d83d7352))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#FLG013") (unit 1)
         )
@@ -4990,7 +5062,7 @@
     )
     (pin "1" (uuid f9a35062-43fc-46d5-97c2-123d8d039b21))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#FLG011") (unit 1)
         )
@@ -5016,13 +5088,16 @@
     (property "LCSC" "C5124976" (at 93.98 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C5124976" (at 93.98 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 4ad24546-6aa5-4d9f-95cd-c091d0b5f58b))
     (pin "2" (uuid caf5bdc6-7d4e-4935-aa45-ed6226e5ad90))
     (pin "3" (uuid 8222dce4-ed7a-4347-bcec-baf9fc2bd5a4))
     (pin "4" (uuid fbbacb46-b89a-4720-9b99-f27911fe0fdf))
     (pin "5" (uuid d1f323ca-41e0-4e87-a846-7e1540e2d172))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "U14") (unit 1)
         )
@@ -5047,7 +5122,7 @@
     )
     (pin "1" (uuid ffb38860-f7c9-4964-b011-5067bce12aaf))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR015") (unit 1)
         )
@@ -5073,6 +5148,9 @@
     (property "LCSC" "C2836319" (at 119.38 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C2836319" (at 119.38 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 22b4bf19-cc82-4bcf-8346-9f5f0a0e15ad))
     (pin "2" (uuid 6f39e3cf-0c93-45d7-bf60-f5993e39c098))
     (pin "3" (uuid 2e13da76-2dfc-43d1-b386-d7649728e9ce))
@@ -5080,7 +5158,7 @@
     (pin "5" (uuid 627f5939-9fa6-4981-8135-dc7cd7124d45))
     (pin "6" (uuid 9c99769c-d37c-45b2-a582-a907d77ee653))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "U17") (unit 1)
         )
@@ -5106,6 +5184,9 @@
     (property "LCSC" "C144397" (at 251.46 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C144397" (at 251.46 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 934de932-56c5-4eb9-8423-2440646bced3))
     (pin "2" (uuid e286c6b9-94e3-44e1-b656-5bb8eaead282))
     (pin "3" (uuid 7dbc01eb-8241-4430-ab1b-9283edb8fb01))
@@ -5113,7 +5194,7 @@
     (pin "5" (uuid 30decb85-580e-472e-bc7f-5896ac533d41))
     (pin "6" (uuid 32cda17b-3979-491d-a4ce-96ea0b0f82d2))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "J19") (unit 1)
         )
@@ -5138,7 +5219,7 @@
     )
     (pin "1" (uuid 20636c13-6d69-4462-80f9-1f77d04ab868))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR031") (unit 1)
         )
@@ -5166,13 +5247,16 @@
     (property "Datasheet" "~" (at 185.42 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 185.42 97.79 0)
+    (property "LCSC" "C15195" (at 185.42 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C15195" (at 185.42 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 774ab180-d645-43a6-b5e3-d8bea14affcc))
     (pin "2" (uuid dab0bed8-f95a-4fcf-895a-e1e281ab665e))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "C33") (unit 1)
         )
@@ -5198,6 +5282,9 @@
     (property "LCSC" "C144397" (at 156.21 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C144397" (at 156.21 171.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid c6edfb02-98ea-4f40-8905-033d84ef617b))
     (pin "2" (uuid 21584b8e-c11b-4012-8e81-8fc15fa627ed))
     (pin "3" (uuid 2ca8d031-8175-4263-9ad9-b06c7ec3a456))
@@ -5205,7 +5292,7 @@
     (pin "5" (uuid df5b8e5f-6d3a-44a6-92d3-ee1e9a613fc8))
     (pin "6" (uuid 3034c57c-e74b-43e3-be5b-19e630bc19cb))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "J13") (unit 1)
         )
@@ -5233,13 +5320,16 @@
     (property "Datasheet" "~" (at 218.44 16.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 218.44 16.51 0)
+    (property "LCSC" "C25900" (at 218.44 16.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C25900" (at 218.44 16.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 425e062e-f878-40d4-bc01-16639bac7303))
     (pin "2" (uuid 8e93b700-e88c-4519-b386-f5d12d6c0410))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R31") (unit 1)
         )
@@ -5267,13 +5357,16 @@
     (property "Datasheet" "~" (at 195.58 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 195.58 24.13 0)
+    (property "LCSC" "C517529" (at 195.58 24.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C517529" (at 195.58 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 436ddb98-6215-48f3-bb0b-e8d8bd672659))
     (pin "2" (uuid bb3d7b6a-a56d-4748-af5e-abdd6900a3dc))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R25") (unit 1)
         )
@@ -5304,10 +5397,13 @@
     (property "LCSC" "C15849" (at 100.33 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C15849" (at 100.33 179.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid abfd8562-8311-4da4-8646-406d30b50881))
     (pin "2" (uuid 2c413b37-833c-46d9-ba1b-e6bb8e870686))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "C17") (unit 1)
         )
@@ -5335,13 +5431,16 @@
     (property "Datasheet" "~" (at 16.51 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 16.51 30.48 0)
+    (property "LCSC" "C1525" (at 16.51 30.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C1525" (at 16.51 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6370d5b0-38d8-494a-b795-cbe8744b4190))
     (pin "2" (uuid 10559cee-14e5-4877-89bb-ded7671b2708))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "C11") (unit 1)
         )
@@ -5364,8 +5463,11 @@
     (property "Datasheet" "" (at 119.38 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "" (at 119.38 187.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "PCB11") (unit 1)
         )
@@ -5388,13 +5490,16 @@
     (property "Datasheet" "~" (at 175.26 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 175.26 148.59 0)
+    (property "LCSC" "C25917" (at 175.26 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C25917" (at 175.26 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3d5e7574-dd22-4b7d-8943-2fc41682e01d))
     (pin "2" (uuid e3f3ee9d-35ec-4eb6-8627-9a8a95576bdb))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R22") (unit 1)
         )
@@ -5422,13 +5527,16 @@
     (property "Datasheet" "~" (at 175.26 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 175.26 97.79 0)
+    (property "LCSC" "C15195" (at 175.26 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C15195" (at 175.26 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3a1a3c39-2e0c-4679-93c0-2c3ee34964d2))
     (pin "2" (uuid f3042fa1-4177-4cb3-99f4-20a05a7fd21a))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "C31") (unit 1)
         )
@@ -5454,10 +5562,13 @@
     (property "LCSC" "C5672" (at 59.69 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C5672" (at 59.69 181.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 52394b60-d88e-43b1-a6c3-9a7f34a93001))
     (pin "2" (uuid ef100235-0c47-4dd5-aed9-94b92cd5694b))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "C13") (unit 1)
         )
@@ -5487,7 +5598,7 @@
     )
     (pin "1" (uuid 9013a032-6566-45be-aaa3-7313147ed423))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR012") (unit 1)
         )
@@ -5517,7 +5628,7 @@
     )
     (pin "1" (uuid 2b87d940-3928-4d6a-bb1a-8a158b417983))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR060") (unit 1)
         )
@@ -5547,7 +5658,7 @@
     )
     (pin "1" (uuid a0a5eae2-8bee-4587-9255-e21c8390cfa9))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR054") (unit 1)
         )
@@ -5577,7 +5688,7 @@
     )
     (pin "1" (uuid f26a8521-0606-4d98-a593-3508333dfd25))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR045") (unit 1)
         )
@@ -5600,13 +5711,16 @@
     (property "Datasheet" "~" (at 71.12 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 71.12 139.7 0)
+    (property "LCSC" "C25900" (at 71.12 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C25900" (at 71.12 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 427461da-80c4-41d7-8d4f-40dd913ed0f7))
     (pin "2" (uuid bb6063d2-ba2c-430f-b6ab-3a78ad6f59cf))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R19") (unit 1)
         )
@@ -5636,7 +5750,7 @@
     )
     (pin "1" (uuid 892a8526-e9b3-4bec-b73d-b7d1066e6c79))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR027") (unit 1)
         )
@@ -5664,13 +5778,16 @@
     (property "Datasheet" "~" (at 139.7 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 139.7 66.04 0)
+    (property "LCSC" "C11702" (at 139.7 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C11702" (at 139.7 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ffcc639a-9db1-43f2-a696-548590c1209d))
     (pin "2" (uuid 12ac9428-099c-4358-9b8f-5d1976988ea2))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R35") (unit 1)
         )
@@ -5701,10 +5818,13 @@
     (property "LCSC" "C15849" (at 22.86 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C15849" (at 22.86 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid fb67b526-16fe-4bbc-988f-36aff93b6328))
     (pin "2" (uuid d65ca267-054a-423f-95b2-2735edb79cbb))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "C12") (unit 1)
         )
@@ -5732,13 +5852,16 @@
     (property "Datasheet" "~" (at 165.1 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 165.1 97.79 0)
+    (property "LCSC" "C15195" (at 165.1 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C15195" (at 165.1 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8adf87bc-5cb6-4b7c-af17-00acd0600683))
     (pin "2" (uuid 4a02196c-90fa-4c2e-a046-c18efeecbf35))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "C29") (unit 1)
         )
@@ -5761,13 +5884,16 @@
     (property "Datasheet" "~" (at 149.86 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 149.86 97.79 0)
+    (property "LCSC" "C15195" (at 149.86 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C15195" (at 149.86 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 81c66e8a-b367-4827-8ed7-70670b37ad10))
     (pin "2" (uuid 7133f40a-66da-43fb-bf9d-a7ed9adaeb11))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "C26") (unit 1)
         )
@@ -5792,7 +5918,7 @@
     )
     (pin "1" (uuid 17860521-3259-4265-868a-066c740b25dc))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR050") (unit 1)
         )
@@ -5820,13 +5946,16 @@
     (property "Datasheet" "~" (at 139.7 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 139.7 71.12 0)
+    (property "LCSC" "C11702" (at 139.7 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C11702" (at 139.7 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0f860a5d-5cd4-4d5f-95dd-4ac56e5a56f3))
     (pin "2" (uuid 57ec322c-e8fd-4c84-82ae-17906c027019))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R37") (unit 1)
         )
@@ -5856,7 +5985,7 @@
     )
     (pin "1" (uuid 5c8797c6-d173-45d7-80d1-f1aa7994a028))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR048") (unit 1)
         )
@@ -5886,7 +6015,7 @@
     )
     (pin "1" (uuid 94fd54fa-8414-4350-821d-4710233bbe73))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR047") (unit 1)
         )
@@ -5914,13 +6043,16 @@
     (property "Datasheet" "~" (at 31.75 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 31.75 142.24 0)
+    (property "LCSC" "C25900" (at 31.75 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C25900" (at 31.75 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 688cfdb9-3237-419e-98d0-0e0ccbe0e717))
     (pin "2" (uuid 7594415b-46e2-4f89-b6f5-80cde7bde1ec))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R15") (unit 1)
         )
@@ -5950,7 +6082,7 @@
     )
     (pin "1" (uuid 15cb06f4-e2d8-4dde-9f2d-5d56b354e84a))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR059") (unit 1)
         )
@@ -5981,10 +6113,13 @@
     (property "LCSC" "C15849" (at 73.66 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C15849" (at 73.66 180.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e63977e9-c6be-4bba-974e-ef3f24ffdb96))
     (pin "2" (uuid e29e23c2-69ad-45d1-ad57-cda006dd0239))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "C14") (unit 1)
         )
@@ -6012,13 +6147,16 @@
     (property "Datasheet" "~" (at 106.68 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 106.68 114.3 0)
+    (property "LCSC" "C25900" (at 106.68 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C25900" (at 106.68 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d8182330-b32b-4143-931d-abe85bd8623a))
     (pin "2" (uuid 61075bce-5c2b-447f-b0d4-4eb8e1d1aa27))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R20") (unit 1)
         )
@@ -6046,13 +6184,16 @@
     (property "Datasheet" "~" (at 213.36 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 213.36 154.94 0)
+    (property "LCSC" "C1525" (at 213.36 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C1525" (at 213.36 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5acfd010-7d82-427e-8580-8d257967b9bf))
     (pin "2" (uuid 3257ef8b-d2e9-4131-8400-86a389ebbfe2))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "C22") (unit 1)
         )
@@ -6081,10 +6222,13 @@
     (property "LCSC" "C2286" (at 36.83 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C2286" (at 36.83 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 1a2966a4-03e4-4cb3-9d8f-cbaf98d65191))
     (pin "2" (uuid 32e28fa7-db49-4b40-bc11-c243e14a4921))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "D16") (unit 1)
         )
@@ -6112,13 +6256,16 @@
     (property "Datasheet" "~" (at 16.51 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 16.51 142.24 0)
+    (property "LCSC" "C25900" (at 16.51 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C25900" (at 16.51 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b128c0f6-8b4f-4b3f-8bba-86c426ffa8e9))
     (pin "2" (uuid 3613242c-b101-4b6e-8d92-07db7bb2299b))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R11") (unit 1)
         )
@@ -6149,10 +6296,13 @@
     (property "LCSC" "C8598" (at 66.04 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C8598" (at 66.04 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 935c6453-e0e6-4c42-8d28-732170acf90f))
     (pin "2" (uuid ef674c4e-b7ca-4b44-b926-fc3296376c86))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "D19") (unit 1)
         )
@@ -6182,7 +6332,7 @@
     )
     (pin "1" (uuid 07946244-ec41-4372-97d8-bccb641c1987))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR055") (unit 1)
         )
@@ -6212,7 +6362,7 @@
     )
     (pin "1" (uuid d46b593b-2e57-4e42-ae8d-d3f4b70fc433))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR053") (unit 1)
         )
@@ -6235,13 +6385,16 @@
     (property "Datasheet" "~" (at 190.5 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 190.5 24.13 0)
+    (property "LCSC" "C517529" (at 190.5 24.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C517529" (at 190.5 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1c1b330b-e61e-4f77-a973-e5c9e57a2577))
     (pin "2" (uuid 2feb5727-e0c4-486f-b98f-3faee965066e))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R23") (unit 1)
         )
@@ -6271,7 +6424,7 @@
     )
     (pin "1" (uuid e3f1d6c0-4fc0-45e2-9def-e9b65a280ec0))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR032") (unit 1)
         )
@@ -6305,10 +6458,13 @@
     (property "LCSC" "C72038" (at 46.99 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C72038" (at 46.99 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 87df76f3-486c-467f-95c5-91653b86d804))
     (pin "2" (uuid ac2bbfe9-47ea-4f54-ba90-ef639f27c7e7))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "D18") (unit 1)
         )
@@ -6336,13 +6492,16 @@
     (property "Datasheet" "~" (at 21.59 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 21.59 142.24 0)
+    (property "LCSC" "C25900" (at 21.59 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C25900" (at 21.59 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid de44e45f-c930-4292-9969-e2506a5ac4d8))
     (pin "2" (uuid f47f76fb-7eca-46ac-bc1a-a06df5934fb7))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R12") (unit 1)
         )
@@ -6370,13 +6529,16 @@
     (property "Datasheet" "~" (at 139.7 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 139.7 58.42 0)
+    (property "LCSC" "C11702" (at 139.7 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C11702" (at 139.7 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7335b953-a537-42df-9146-72cda1e47489))
     (pin "2" (uuid 7d4309fa-6c24-40cb-9fee-2f2f7375165e))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R32") (unit 1)
         )
@@ -6406,7 +6568,7 @@
     )
     (pin "1" (uuid cfcab545-de2c-4635-87f1-2a7b54d7a293))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR024") (unit 1)
         )
@@ -6429,13 +6591,16 @@
     (property "Datasheet" "~" (at 26.67 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 26.67 121.92 0)
+    (property "LCSC" "C517529" (at 26.67 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C517529" (at 26.67 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 014b9b9e-aa93-42be-a86f-093f538727ed))
     (pin "2" (uuid 8c32fb57-cdd1-481c-8f0f-5eb1495c13ac))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R13") (unit 1)
         )
@@ -6460,7 +6625,7 @@
     )
     (pin "1" (uuid 180bab73-066d-4e6d-ab82-0059b1d77984))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR037") (unit 1)
         )
@@ -6490,7 +6655,7 @@
     )
     (pin "1" (uuid 41a84ac0-ec13-4ced-a0e2-9e56b9c152ab))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR021") (unit 1)
         )
@@ -6516,10 +6681,13 @@
     (property "LCSC" "C8598" (at 148.59 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C8598" (at 148.59 166.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 65344ff4-23b2-4c00-9cbd-179d8d44ce14))
     (pin "2" (uuid fcfbac00-dc1a-45a6-a24a-8443b0fb40b3))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "D20") (unit 1)
         )
@@ -6547,13 +6715,16 @@
     (property "Datasheet" "~" (at 82.55 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 82.55 156.21 0)
+    (property "LCSC" "C1525" (at 82.55 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C1525" (at 82.55 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 943eb864-6174-4c4b-b75e-41394cad320c))
     (pin "2" (uuid 90abe5ed-f5bd-490e-b6dd-044d09165d74))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "C15") (unit 1)
         )
@@ -6576,13 +6747,16 @@
     (property "Datasheet" "~" (at 139.7 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 139.7 76.2 0)
+    (property "LCSC" "C11702" (at 139.7 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C11702" (at 139.7 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8fb520e7-73c7-47f7-a000-5c3a5e029ff1))
     (pin "2" (uuid 9876b8f6-3209-47d9-b5bc-63cd301128c3))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R39") (unit 1)
         )
@@ -6613,10 +6787,13 @@
     (property "LCSC" "C19702" (at 184.15 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C19702" (at 184.15 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid cac99202-1ed0-47e4-b9f4-54776fd9f19f))
     (pin "2" (uuid ce81934c-8e04-46af-b1a7-3e5a87f48f77))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "C20") (unit 1)
         )
@@ -6650,10 +6827,13 @@
     (property "LCSC" "C2290" (at 41.91 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C2290" (at 41.91 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 88d63aaa-e43b-4153-b4be-8c6a1106ac23))
     (pin "2" (uuid 5b352ca3-2377-4b3e-a104-73ec61bf7109))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "D17") (unit 1)
         )
@@ -6681,13 +6861,16 @@
     (property "Datasheet" "~" (at 170.18 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 170.18 97.79 0)
+    (property "LCSC" "C15195" (at 170.18 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C15195" (at 170.18 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3c9b14d2-95d3-4371-9557-5331fedee9d4))
     (pin "2" (uuid 1617a0d6-00f0-41c5-a9be-290a76fb882e))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "C30") (unit 1)
         )
@@ -6713,6 +6896,9 @@
     (property "LCSC" "C2836319" (at 119.38 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C2836319" (at 119.38 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid b3b42f2b-90d7-44d6-a8d4-f87fb1f00532))
     (pin "2" (uuid d440ad00-43bb-4e66-bd01-124f8c906e86))
     (pin "3" (uuid 58ab0726-2496-495e-ae11-245d035efa42))
@@ -6720,7 +6906,7 @@
     (pin "5" (uuid 0df738fc-a710-49c8-b31d-4d1dd8fa481d))
     (pin "6" (uuid 873a4113-b8bb-4c1a-adef-192167e99119))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "U16") (unit 1)
         )
@@ -6745,7 +6931,7 @@
     )
     (pin "1" (uuid 01d90656-ed7a-4489-b578-b637560f5c4b))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR035") (unit 1)
         )
@@ -6770,7 +6956,7 @@
     )
     (pin "1" (uuid 78faff49-65e0-4f50-9ca9-2a6c3617872d))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR013") (unit 1)
         )
@@ -6798,13 +6984,16 @@
     (property "Datasheet" "~" (at 99.06 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 99.06 113.03 0)
+    (property "LCSC" "C1525" (at 99.06 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C1525" (at 99.06 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 17f2dc6e-bae9-4d6f-90e1-505d93c32a09))
     (pin "2" (uuid a0f31eb3-094a-4ac6-9edb-d45e0583a29a))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "C16") (unit 1)
         )
@@ -6829,7 +7018,7 @@
     )
     (pin "1" (uuid 7639d9a9-d006-427c-b6d6-7923a297b31c))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR040") (unit 1)
         )
@@ -6858,10 +7047,13 @@
     (property "LCSC" "C72041" (at 16.51 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C72041" (at 16.51 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 487497d1-eb20-45f6-be8c-f4886f2536c3))
     (pin "2" (uuid 5c3b1887-9fc9-4010-b4ee-cd32ee31d7d9))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "D11") (unit 1)
         )
@@ -6891,7 +7083,7 @@
     )
     (pin "1" (uuid 02461c15-66cf-4004-85b7-5ad2c98160b1))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR062") (unit 1)
         )
@@ -6916,7 +7108,7 @@
     )
     (pin "1" (uuid 5c1fdaae-45b7-4f25-a2db-1072a9a768d5))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR018") (unit 1)
         )
@@ -6941,7 +7133,7 @@
     )
     (pin "1" (uuid df66f0b8-5c52-4210-b38a-d3e90cd7aafe))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR056") (unit 1)
         )
@@ -6969,13 +7161,16 @@
     (property "Datasheet" "~" (at 203.2 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 203.2 154.94 0)
+    (property "LCSC" "C1525" (at 203.2 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C1525" (at 203.2 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a4747fcb-4355-451f-b270-e204023bc9a6))
     (pin "2" (uuid 3dd655a8-ff02-4ed8-b391-584a45718be8))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "C21") (unit 1)
         )
@@ -6998,13 +7193,16 @@
     (property "Datasheet" "~" (at 180.34 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 180.34 97.79 0)
+    (property "LCSC" "C15195" (at 180.34 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C15195" (at 180.34 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e620d1e6-c022-48b8-aa01-8d5f3f6ae13f))
     (pin "2" (uuid cf08f924-239a-4249-8cc1-200aaab4c837))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "C32") (unit 1)
         )
@@ -7027,13 +7225,16 @@
     (property "Datasheet" "~" (at 139.7 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 139.7 63.5 0)
+    (property "LCSC" "C11702" (at 139.7 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C11702" (at 139.7 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6212c860-f340-4171-aa8e-2b28c42ccdde))
     (pin "2" (uuid ee8c868b-e146-4b14-afd4-fedc3e337076))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R34") (unit 1)
         )
@@ -7064,13 +7265,16 @@
     (property "LCSC" "C89855" (at 166.37 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C89855" (at 166.37 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid c4473d09-d0bc-4f98-a565-6f856a70e404))
     (pin "2" (uuid 4252d8dc-553c-4b0f-b188-7de755446d88))
     (pin "3" (uuid 6bf14886-a684-4432-90fc-90ad03be81f2))
     (pin "4" (uuid 151cb80f-0327-4c41-996c-c2aa11f10be4))
     (pin "5" (uuid 80f528cd-b139-4d87-be5d-8018c9e3b5e3))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "U15") (unit 1)
         )
@@ -7093,13 +7297,16 @@
     (property "Datasheet" "~" (at 193.04 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 193.04 24.13 0)
+    (property "LCSC" "C517529" (at 193.04 24.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C517529" (at 193.04 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6637a6e7-1319-4843-8d9d-03ce786a7613))
     (pin "2" (uuid 9ff9b019-7764-4bef-a041-41030af6baff))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R24") (unit 1)
         )
@@ -7127,13 +7334,16 @@
     (property "Datasheet" "~" (at 243.84 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 243.84 154.94 0)
+    (property "LCSC" "C1525" (at 243.84 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C1525" (at 243.84 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0f758040-76d1-47fd-80f5-c56906044a04))
     (pin "2" (uuid 2145c224-36aa-42c4-a8f5-8c32e4ae65ad))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "C25") (unit 1)
         )
@@ -7158,7 +7368,7 @@
     )
     (pin "1" (uuid 987fb2a6-ffe8-4e3a-98f9-e5d0c79c99fd))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR039") (unit 1)
         )
@@ -7188,7 +7398,7 @@
     )
     (pin "1" (uuid 08587037-f8a0-4a9b-9f5f-c5845b952686))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR014") (unit 1)
         )
@@ -7211,13 +7421,16 @@
     (property "Datasheet" "~" (at 208.28 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 208.28 24.13 0)
+    (property "LCSC" "C517529" (at 208.28 24.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C517529" (at 208.28 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4357b83e-789c-4334-af4f-91b1152d4f08))
     (pin "2" (uuid f936d5b5-61a5-468d-834b-410644490d3f))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R30") (unit 1)
         )
@@ -7247,7 +7460,7 @@
     )
     (pin "1" (uuid 225604ed-b42b-43f6-871c-c2d431165bd4))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR041") (unit 1)
         )
@@ -7273,12 +7486,15 @@
     (property "LCSC" "C144395" (at 29.21 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C144395" (at 29.21 179.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid def0782e-140c-40aa-a694-81963ba615f1))
     (pin "2" (uuid 4c1030ed-7df0-4c96-bc78-a2831014b2c2))
     (pin "3" (uuid 1bea074b-099a-4636-9695-5e655fef73a8))
     (pin "4" (uuid 6814b13c-56cc-44af-bed5-8d6b31e9eab1))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "J11") (unit 1)
         )
@@ -7306,13 +7522,16 @@
     (property "Datasheet" "~" (at 26.67 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 26.67 142.24 0)
+    (property "LCSC" "C25900" (at 26.67 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C25900" (at 26.67 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 94115406-16b4-4b9c-8f1e-cb06be6c1541))
     (pin "2" (uuid f667bf5f-3fcf-42df-88ea-30036a81d13c))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R14") (unit 1)
         )
@@ -7343,10 +7562,13 @@
     (property "LCSC" "C15849" (at 223.52 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C15849" (at 223.52 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ac8da9a5-0d49-4779-ab00-d547d08dd5dd))
     (pin "2" (uuid 43907059-8ae6-49eb-8230-d505ff84d254))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "C23") (unit 1)
         )
@@ -7375,10 +7597,13 @@
     (property "LCSC" "C139168" (at 100.33 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB" "C139168" (at 100.33 166.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 22e3e781-0473-407f-b5cc-716886e29d71))
     (pin "2" (uuid eed5a5c7-6f03-4196-aa39-2783e45e452d))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "FB12") (unit 1)
         )
@@ -7408,7 +7633,7 @@
     )
     (pin "1" (uuid fc8767e3-6884-4369-8f2e-5aba3e460551))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR052") (unit 1)
         )
@@ -7433,7 +7658,7 @@
     )
     (pin "1" (uuid 6547de5a-8b97-4b05-a147-3968857a985d))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR026") (unit 1)
         )
@@ -7463,7 +7688,7 @@
     )
     (pin "1" (uuid 24a1d8e6-b43f-4b5c-b9fb-4606f62b5785))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR025") (unit 1)
         )
@@ -7488,7 +7713,7 @@
     )
     (pin "1" (uuid 89b38e24-c5db-4ffa-bce5-df50f3775037))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR017") (unit 1)
         )
@@ -7516,13 +7741,16 @@
     (property "Datasheet" "~" (at 36.83 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 36.83 142.24 0)
+    (property "LCSC" "C25900" (at 36.83 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C25900" (at 36.83 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e3753a01-f4fc-4143-800b-d62df1d17ef0))
     (pin "2" (uuid c5bdc2e9-b228-48f3-a305-bbbf02a66ab9))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R16") (unit 1)
         )
@@ -7550,13 +7778,16 @@
     (property "Datasheet" "~" (at 110.49 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 110.49 143.51 0)
+    (property "LCSC" "C1525" (at 110.49 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C1525" (at 110.49 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8973ec56-6b2b-4c5e-987c-45dbfc6a5e6c))
     (pin "2" (uuid 220632d7-9dbc-4836-8a4c-1201279975c6))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "C18") (unit 1)
         )
@@ -7581,7 +7812,7 @@
     )
     (pin "1" (uuid e1917277-962f-4dc5-9193-695d806c40f1))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR033") (unit 1)
         )
@@ -7606,7 +7837,7 @@
     )
     (pin "1" (uuid 927e707d-f6ac-4a31-8834-78affa3e9490))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#PWR019") (unit 1)
         )
@@ -7636,7 +7867,7 @@
     )
     (pin "1" (uuid 66a5a2e3-35dd-4883-9129-b9194124b638))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "#FLG014") (unit 1)
         )
@@ -7659,13 +7890,16 @@
     (property "Datasheet" "~" (at 139.7 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 139.7 68.58 0)
+    (property "LCSC" "C11702" (at 139.7 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "C11702" (at 139.7 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 07aa7785-34b6-40a6-89ac-20c89fe3cf08))
     (pin "2" (uuid 958bf585-f575-4c16-99aa-1301c2470cb7))
     (instances
-      (project "dryer_adc_4051_8"
+      (project "dryer_adc_8_stm32"
         (path "/4bc7fb65-94d5-49b4-9a6c-23ffe1803119"
           (reference "R36") (unit 1)
         )
