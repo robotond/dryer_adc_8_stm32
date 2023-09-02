@@ -23,6 +23,10 @@
 /* USER CODE BEGIN Includes */
 #include "utility.h"
 #include <stdio.h>
+#include <math.h>
+#include "crc.h"
+#include <string.h>
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -32,8 +36,26 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-#define BUFFER_SIZE 256	//Transmit buffer size
+#define RX_BUFFER_SIZE 256	//Transmit buffer size
+#define MAXBUFFER 256
+#define ADC_SET_TIME 1
+
 #define NUMSENSORS 8	//Number of sensors in a probe
+#define RANGE_L -40                 // °C
+#define RANGE_H 200                 // °C
+#define BETA 3977                   // °K (Beta25/85)
+#define NOMINAL_TEMPERATURE 298.15  // °K
+#define INVALID_VAL 0xFF
+#define AD_CORRECTION 0
+//------------------------------------------------
+#define KSMOOTH 10
+
+#define NUM_RAW_DATA		((SCOLUMNS) * (SROWS))
+#define NUM_TO_COMBINE		(1)
+#define NUM_TEMPERATURES	(NUM_RAW_DATA / NUM_TO_COMBINE)
+#define TEMP_OFFSET 		(31)
+//------------------------------------------------
+
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -50,8 +72,17 @@ UART_HandleTypeDef huart1;
 UART_HandleTypeDef huart3;
 
 /* USER CODE BEGIN PV */
-char uart_buffer[BUFFER_SIZE];
+
 int adc_values[NUMSENSORS]; // Array to store values for NUMSENSORS channels
+uint16_t temperatures_data[NUMSENSORS];
+double NOMINAL_RESISTANCE = 10000.0;          // Nominal resistance at 25°C in ohms
+double DIVIDER_RESISTANCE = 2200.0;       // Series resistor in ohms
+double Vmeasured = 2.6;       // Voltage measured across the NTC in volts
+double VREF = 3.072;             // ADC reference voltage in volts (assumed)
+char tx_buffer[MAXBUFFER];
+int rx_available;
+char rx_buffer[RX_BUFFER_SIZE];
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -67,6 +98,27 @@ static void MX_USART3_UART_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+void calctemp(){
+	// gets °C data from raw adc data
+	    for(int i = 0; i < NUMSENSORS; i++){
+	        uint16_t value = adc_values[i]-AD_CORRECTION;
+	        double voltage = VREF / (double)4096 * value;
+	        double ntc_resistance = voltage / (VREF - voltage) * DIVIDER_RESISTANCE;
+	        double temperature = (double)ntc_resistance / (double)NOMINAL_RESISTANCE;
+	        temperature = log(temperature);
+	        temperature /= BETA;
+	        temperature += 1.0 / NOMINAL_TEMPERATURE;
+	        temperature = 1.0 / temperature;
+	        temperature -= 273.15;
+
+	        if (temperature < RANGE_L || temperature > RANGE_H){
+	            temperature = INVALID_VAL;
+	        }
+
+	        temperatures_data[i] = temperature;
+	    }
+}
+
 int echo_u1(uint8_t escape_char){
 	uint8_t karcsi=' ';
 	int counter=0;
@@ -155,6 +207,18 @@ int p;
 		}
 }
 
+//--------------------------------------------------------
+void sendDataCal(){
+	uint8_t packet_len = NUMSENSORS*2 + 2;
+	uint8_t packet[packet_len];
+	memcpy(packet,temperatures_data,NUMSENSORS*2);
+	uint16_t crc = calculateCRC16(packet, NUMSENSORS*2);
+	packet[packet_len - 2] = crc >> 8;
+	packet[packet_len - 1] = crc & 0xFF;
+	HAL_UART_Transmit (&huart3, packet, packet_len, 10);
+}
+
+//---------------------------------------------------
 /* USER CODE END 0 */
 
 /**
@@ -199,8 +263,43 @@ int main(void)
   while (1)
   {
 	  convert();
-	  msglength=sprintf(uart_buffer,"ADC %04d,%04d,%04d,%04d,%04d,%04d,%04d,%04d \r\n",adc_values[0],adc_values[1],adc_values[2],adc_values[3],adc_values[4],adc_values[5],adc_values[6],adc_values[7]);
-	  HAL_UART_Transmit(&huart3, (uint8_t *) uart_buffer,msglength, 100);
+//	  msglength=sprintf(tx_buffer,"ADC %04d,%04d,%04d,%04d,%04d,%04d,%04d,%04d \r\n",adc_values[0],adc_values[1],adc_values[2],adc_values[3],adc_values[4],adc_values[5],adc_values[6],adc_values[7]);
+//	  HAL_UART_Transmit(&huart3, (uint8_t *) tx_buffer,msglength, 100);
+	  calctemp();
+//	  msglength=sprintf(tx_buffer,"TMP %04d,%04d,%04d,%04d,%04d,%04d,%04d,%04d \r\n",temperatures_data[0],temperatures_data[1],temperatures_data[2],temperatures_data[3],temperatures_data[4],temperatures_data[5],temperatures_data[6],temperatures_data[7]);
+//	  HAL_UART_Transmit(&huart3, (uint8_t *) tx_buffer,msglength, 100);
+//------------------------------------------------------------------------
+		// wait for rising edge
+		while (HAL_GPIO_ReadPin(START_GPIO_Port, START_Pin));
+		ON(BLUE1);
+//		read_all_sensors();	//ezt megteszi a convert()
+	/* ez mar mukodott
+		for (int i = 0; i < NUM_RAW_DATA; i++){
+
+		    adc_cal[i*2] = raw_adc_data[i] >> 8;
+
+		    adc_cal[i*2 + 1] = raw_adc_data[i] & 0xFF;
+
+		}*/ /*
+		for (int i = 0; i < NUM_RAW_DATA; i++){
+
+		    adc_cal[i*2] = calculated_temperatures[i] >> 8;
+
+		    adc_cal[i*2 + 1] = calculated_temperatures[i] & 0xFF;
+
+		}
+		//memcpy(adc_cal,raw_adc_data,NUM_RAW_DATA*2);
+		// fill temperatures buffer
+		//fillTemp();
+
+		// send
+		//sendData();
+*/		sendDataCal();
+		OFF(BLUE1);
+		// wait for falling edge
+		while (!HAL_GPIO_ReadPin(START_GPIO_Port, START_Pin));
+
+//------------------------------------------------------------------------
 	  HAL_Delay(100);
     /* USER CODE END WHILE */
 

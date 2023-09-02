@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;adc_probe8/Core/Inc/tempcalc.h&apos;" deleteContents="false" description="Delete resource &apos;adc_probe8/Core/Inc/tempcalc.h&apos;" element1="/adc_probe8/Core/Inc/tempcalc.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1693646952075"/>
+</session>
