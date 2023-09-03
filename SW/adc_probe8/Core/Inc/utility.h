@@ -16,25 +16,25 @@ void test_leds(void);
 
 void test_leds(){
 	ON(RED);
-	HAL_Delay(100);
+	HAL_Delay(10);
 	ON(GREEN);
-	HAL_Delay(100);
+	HAL_Delay(10);
 	ON(BLUE1);
-	HAL_Delay(100);
+	HAL_Delay(10);
 	ON(BLUE2);
-	HAL_Delay(100);
+	HAL_Delay(10);
 	ON(BLUE3);
-	HAL_Delay(100);
+	HAL_Delay(10);
 	OFF(RED);
-	HAL_Delay(100);
+	HAL_Delay(10);
 	OFF(GREEN);
-	HAL_Delay(100);
+	HAL_Delay(10);
 	OFF(BLUE1);
-	HAL_Delay(100);
+	HAL_Delay(10);
 	OFF(BLUE2);
-	HAL_Delay(100);
+	HAL_Delay(10);
 	OFF(BLUE3);
-	HAL_Delay(100);
+	HAL_Delay(10);
 
 }
 

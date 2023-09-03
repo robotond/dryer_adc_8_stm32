@@ -449,3 +449,67 @@ java.lang.Exception: Resource '/adc_probe8/Core/Inc/tempcalc.h' does not exist.
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SESSION 2023-09-02 15:33:13.739 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-02 15:33:46.901
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-02 15:33:46.902
+!MESSAGE Log4j2 initialized with config file /home/tjp/Documents/GITHUB/dryer_adc_8_stm32/SW/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-02 15:33:53.772
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-09-02 17:43:46.314 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  /home/tjp/Documents/GITLAB/dryertemp/HW/cubeide/DTNode/DTNodeG070CBT6/.project
+Command-line arguments:  -data /home/tjp/Documents/GITHUB/dryer_adc_8_stm32/SW -os linux -ws gtk -arch x86_64 /home/tjp/Documents/GITLAB/dryertemp/HW/cubeide/DTNode/DTNodeG070CBT6/.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-02 17:43:52.031
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-02 17:43:52.033
+!MESSAGE Log4j2 initialized with config file /home/tjp/Documents/GITHUB/dryer_adc_8_stm32/SW/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-02 17:43:59.714
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-09-02 17:44:18.518
+!MESSAGE Indexed 'DTNodeG070CBT6' (39 sources, 340 headers) in 18.5 sec: 39,523 declarations; 125,733 references; 8 unresolved inclusions; 394 syntax errors; 2,299 unresolved names (1.4%)
+!SESSION 2023-09-02 19:01:19.548 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/tjp/Documents/GITHUB/dryer_adc_8_stm32/SW -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-02 19:01:26.782
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-02 19:01:26.783
+!MESSAGE Log4j2 initialized with config file /home/tjp/Documents/GITHUB/dryer_adc_8_stm32/SW/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-02 19:01:38.008
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-09-03 07:15:11.511 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/tjp/Documents/GITHUB/dryer_adc_8_stm32/SW -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-03 07:15:17.213
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-03 07:15:17.214
+!MESSAGE Log4j2 initialized with config file /home/tjp/Documents/GITHUB/dryer_adc_8_stm32/SW/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-03 07:15:26.385
+!MESSAGE Started RMI Server, listening on port 41337

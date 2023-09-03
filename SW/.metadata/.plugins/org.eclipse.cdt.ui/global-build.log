@@ -1,14 +1,56 @@
-12:41:59 **** Incremental Build of configuration Debug for project adc_probe8 ****
+07:18:48 **** Incremental Build of configuration Debug for project adc_probe8 ****
 make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G070xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "adc_probe8.elf" @"objects.list"   -mcpu=cortex-m0plus -T"/home/tjp/Documents/GITHUB/dryer_adc_8_stm32/SW/adc_probe8/STM32G070CBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="adc_probe8.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: adc_probe8.elf
+ 
 arm-none-eabi-size   adc_probe8.elf 
+arm-none-eabi-objdump -h -S  adc_probe8.elf  > "adc_probe8.list"
    text	   data	    bss	    dec	    hex	filename
-  28128	    124	   2364	  30616	   7798	adc_probe8.elf
+  28180	    124	   2364	  30668	   77cc	adc_probe8.elf
 Finished building: default.size.stdout
  
-12:42:05 **** Incremental Build of configuration Debug for project adc_probe8 ****
+Finished building: adc_probe8.list
+ 
+07:18:53 **** Incremental Build of configuration Debug for project adc_probe8 ****
 make -j4 all 
 arm-none-eabi-size   adc_probe8.elf 
    text	   data	    bss	    dec	    hex	filename
-  28128	    124	   2364	  30616	   7798	adc_probe8.elf
+  28180	    124	   2364	  30668	   77cc	adc_probe8.elf
+Finished building: default.size.stdout
+ 
+07:19:49 **** Incremental Build of configuration Debug for project adc_probe8 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G070xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "adc_probe8.elf" @"objects.list"   -mcpu=cortex-m0plus -T"/home/tjp/Documents/GITHUB/dryer_adc_8_stm32/SW/adc_probe8/STM32G070CBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="adc_probe8.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: adc_probe8.elf
+ 
+arm-none-eabi-size   adc_probe8.elf 
+arm-none-eabi-objdump -h -S  adc_probe8.elf  > "adc_probe8.list"
+   text	   data	    bss	    dec	    hex	filename
+  28180	    124	   2364	  30668	   77cc	adc_probe8.elf
+Finished building: default.size.stdout
+ 
+Finished building: adc_probe8.list
+ 
+07:23:03 **** Incremental Build of configuration Debug for project adc_probe8 ****
+make -j4 all 
+arm-none-eabi-size   adc_probe8.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28180	    124	   2364	  30668	   77cc	adc_probe8.elf
+Finished building: default.size.stdout
+ 
+07:23:21 **** Incremental Build of configuration Debug for project adc_probe8 ****
+make -j4 all 
+arm-none-eabi-size   adc_probe8.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28180	    124	   2364	  30668	   77cc	adc_probe8.elf
+Finished building: default.size.stdout
+ 
+07:23:38 **** Incremental Build of configuration Debug for project adc_probe8 ****
+make -j4 all 
+arm-none-eabi-size   adc_probe8.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28180	    124	   2364	  30668	   77cc	adc_probe8.elf
 Finished building: default.size.stdout
  
