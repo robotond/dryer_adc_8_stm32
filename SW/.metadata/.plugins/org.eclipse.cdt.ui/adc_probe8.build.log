@@ -1,10 +1,10 @@
-07:23:38 **** Incremental Build of configuration Debug for project adc_probe8 ****
-make -j4 all 
+17:01:17 **** Incremental Build of configuration Debug for project adc_probe8 ****
+make -j12 all 
 arm-none-eabi-size   adc_probe8.elf 
    text	   data	    bss	    dec	    hex	filename
   28180	    124	   2364	  30668	   77cc	adc_probe8.elf
 Finished building: default.size.stdout
  
 
-07:23:39 Build Finished. 0 errors, 0 warnings. (took 529ms)
+17:01:18 Build Finished. 0 errors, 0 warnings. (took 617ms)
 
