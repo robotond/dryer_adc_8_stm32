@@ -43,7 +43,7 @@
 #define NUMSENSORS 8	//Number of sensors in a probe
 #define RANGE_L -40                 // °C
 #define RANGE_H 200                 // °C
-#define BETA 3977                   // °K (Beta25/85)
+#define BETA 3435                   // °K (Beta25/85)
 #define NOMINAL_TEMPERATURE 298.15  // °K
 #define INVALID_VAL 0xFF
 #define AD_CORRECTION 0
@@ -207,7 +207,7 @@ void convert() {
 
 //--------------------------------------------------------
 void sendDataCal() {
-	uint8_t packet_len = NUMSENSORS * 2 + 2;
+	uint8_t packet_len = NUMSENSORS * 2;
 	uint8_t packet[packet_len];
 	for (int s = 0; s < NUMSENSORS; s++) {
 		packet[s * 2 + 1] = temperatures_data[s] & 0xFF;
@@ -230,7 +230,7 @@ void sendDataCal() {
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-
+int length=0;
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -277,7 +277,7 @@ int main(void)
 //	  HAL_UART_Transmit(&huart3, (uint8_t *) tx_buffer,msglength, 100);
 //------------------------------------------------------------------------
 		// wait for rising edge
-		while (HAL_GPIO_ReadPin(START_GPIO_Port, START_Pin))
+		//while (HAL_GPIO_ReadPin(START_GPIO_Port, START_Pin))
 			;
 		ON(GREEN);
 //		read_all_sensors();	//ezt megteszi a convert()
@@ -302,10 +302,14 @@ int main(void)
 
 		 // send
 		 //sendData();
-		 */sendDataCal();
+		 */
+		//sendDataCal();
+		length=sprintf(tx_buffer,"Motto1: %03d Motto2: %03d \r\n", temperatures_data[6], temperatures_data[7]);
+		HAL_UART_Transmit(&huart3, (uint8_t*)tx_buffer, length, 20);
 		OFF(GREEN);
 		// wait for falling edge
-		while (!HAL_GPIO_ReadPin(START_GPIO_Port, START_Pin));
+		//while (!HAL_GPIO_ReadPin(START_GPIO_Port, START_Pin));
+		HAL_Delay(1000);
 
 
 //------------------------------------------------------------------------
