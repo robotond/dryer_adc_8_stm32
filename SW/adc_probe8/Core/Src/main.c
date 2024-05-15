@@ -43,7 +43,7 @@
 #define NUMSENSORS 8	//Number of sensors in a probe
 #define RANGE_L -40                 // °C
 #define RANGE_H 200                 // °C
-#define BETA 3435                   // °K (Beta25/85)
+#define BETA 3470                   // °K (Beta25/85)
 #define NOMINAL_TEMPERATURE 298.15  // °K
 #define INVALID_VAL 0xFF
 #define AD_CORRECTION 0
@@ -78,7 +78,7 @@ uint16_t temperatures_data[NUMSENSORS];
 double NOMINAL_RESISTANCE = 10000.0;       // Nominal resistance at 25°C in ohms
 double DIVIDER_RESISTANCE = 2200.0;       // Series resistor in ohms
 double Vmeasured = 2.6;       // Voltage measured across the NTC in volts
-double VREF = 3.072;             // ADC reference voltage in volts (assumed)
+double VREF = 3.335;             // ADC reference voltage in volts (assumed)
 char tx_buffer[MAXBUFFER];
 int rx_available;
 char rx_buffer[RX_BUFFER_SIZE];
@@ -229,6 +229,7 @@ void sendDataCal() {
   */
 int main(void)
 {
+
   /* USER CODE BEGIN 1 */
 int length=0;
   /* USER CODE END 1 */
@@ -304,12 +305,12 @@ int length=0;
 		 //sendData();
 		 */
 		//sendDataCal();
-		length=sprintf(tx_buffer,"Motto1: %03d Motto2: %03d \r\n", temperatures_data[6], temperatures_data[7]);
+		length=sprintf(tx_buffer,"%03d,%03d,%03d,%03d,%03d,%03d,%03d,%03d \r\n", temperatures_data[0], temperatures_data[1], temperatures_data[2], temperatures_data[3], temperatures_data[4], temperatures_data[5], temperatures_data[6], temperatures_data[7]);
 		HAL_UART_Transmit(&huart3, (uint8_t*)tx_buffer, length, 20);
 		OFF(GREEN);
 		// wait for falling edge
 		//while (!HAL_GPIO_ReadPin(START_GPIO_Port, START_Pin));
-		HAL_Delay(1000);
+		HAL_Delay(5000);
 
 
 //------------------------------------------------------------------------
@@ -345,7 +346,7 @@ void SystemClock_Config(void)
   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSI;
   RCC_OscInitStruct.PLL.PLLM = RCC_PLLM_DIV1;
   RCC_OscInitStruct.PLL.PLLN = 8;
-  RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
+  RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV4;
   RCC_OscInitStruct.PLL.PLLR = RCC_PLLR_DIV2;
   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
   {
@@ -583,7 +584,7 @@ static void MX_USART3_UART_Init(void)
 
   /* USER CODE END USART3_Init 1 */
   huart3.Instance = USART3;
-  huart3.Init.BaudRate = 19200;
+  huart3.Init.BaudRate = 115200;
   huart3.Init.WordLength = UART_WORDLENGTH_8B;
   huart3.Init.StopBits = UART_STOPBITS_1;
   huart3.Init.Parity = UART_PARITY_NONE;

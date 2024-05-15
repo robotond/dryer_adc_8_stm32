@@ -7,10 +7,10 @@
 ../Core/Src/main.c:191:6:convert	4
 ../Core/Src/main.c:209:6:sendDataCal	2
 ../Core/Src/main.c:230:5:main	1
-../Core/Src/main.c:328:6:SystemClock_Config	3
-../Core/Src/main.c:374:13:MX_ADC1_Init	10
-../Core/Src/main.c:496:13:MX_CRC_Init	2
-../Core/Src/main.c:527:13:MX_USART1_UART_Init	5
-../Core/Src/main.c:575:13:MX_USART3_UART_Init	2
-../Core/Src/main.c:611:13:MX_GPIO_Init	1
-../Core/Src/main.c:663:6:Error_Handler	1
+../Core/Src/main.c:329:6:SystemClock_Config	3
+../Core/Src/main.c:375:13:MX_ADC1_Init	10
+../Core/Src/main.c:497:13:MX_CRC_Init	2
+../Core/Src/main.c:528:13:MX_USART1_UART_Init	5
+../Core/Src/main.c:576:13:MX_USART3_UART_Init	2
+../Core/Src/main.c:612:13:MX_GPIO_Init	1
+../Core/Src/main.c:664:6:Error_Handler	1
