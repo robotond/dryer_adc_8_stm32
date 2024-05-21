@@ -26,7 +26,7 @@
 #include <math.h>
 #include "crc.h"
 #include <string.h>
-
+#include <stdarg.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -47,6 +47,7 @@
 #define NOMINAL_TEMPERATURE 298.15  // °K
 #define INVALID_VAL 0xFF
 #define AD_CORRECTION 0
+#define AD_OFFSET 51
 //------------------------------------------------
 #define KSMOOTH 10
 
@@ -67,6 +68,8 @@
 ADC_HandleTypeDef hadc1;
 
 CRC_HandleTypeDef hcrc;
+
+TIM_HandleTypeDef htim3;
 
 UART_HandleTypeDef huart1;
 UART_HandleTypeDef huart3;
@@ -92,17 +95,35 @@ static void MX_ADC1_Init(void);
 static void MX_CRC_Init(void);
 static void MX_USART1_UART_Init(void);
 static void MX_USART3_UART_Init(void);
+static void MX_TIM3_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+void custom_printf(UART_HandleTypeDef *huart, const char *format, ...) {
+    va_list args;
+    va_start(args, format);
+
+    char buffer[256]; // Adjust buffer size as needed
+
+    // Format the string
+    vsnprintf(buffer, sizeof(buffer), format, args);
+
+    // Send the formatted string via UART
+    HAL_UART_Transmit(huart, (uint8_t *)buffer, strlen(buffer), HAL_MAX_DELAY);
+
+    va_end(args);
+}
+
+
 void calctemp() {
 	// gets °C data from raw adc data
 	for (int i = 0; i < NUMSENSORS; i++) {
 		uint16_t value = adc_values[i] - AD_CORRECTION;
-		double voltage = VREF / (double) 4096 * value;
+		double voltage = VREF / (double) 4096 * (value-AD_OFFSET);
+		custom_printf(&huart3, "%03d,",adc_values[i]);
 		double ntc_resistance = voltage / (VREF - voltage) * DIVIDER_RESISTANCE;
 		double temperature = (double) ntc_resistance
 				/ (double) NOMINAL_RESISTANCE;
@@ -256,6 +277,7 @@ int length=0;
   MX_CRC_Init();
   MX_USART1_UART_Init();
   MX_USART3_UART_Init();
+  MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
 	test_leds();
 	ON(ENSPWR);
@@ -310,7 +332,7 @@ int length=0;
 		OFF(GREEN);
 		// wait for falling edge
 		//while (!HAL_GPIO_ReadPin(START_GPIO_Port, START_Pin));
-		HAL_Delay(5000);
+		HAL_Delay(1000);
 
 
 //------------------------------------------------------------------------
@@ -517,6 +539,55 @@ static void MX_CRC_Init(void)
   /* USER CODE BEGIN CRC_Init 2 */
 
   /* USER CODE END CRC_Init 2 */
+
+}
+
+/**
+  * @brief TIM3 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM3_Init(void)
+{
+
+  /* USER CODE BEGIN TIM3_Init 0 */
+
+  /* USER CODE END TIM3_Init 0 */
+
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+  TIM_OC_InitTypeDef sConfigOC = {0};
+
+  /* USER CODE BEGIN TIM3_Init 1 */
+
+  /* USER CODE END TIM3_Init 1 */
+  htim3.Instance = TIM3;
+  htim3.Init.Prescaler = 0;
+  htim3.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim3.Init.Period = 65535;
+  htim3.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim3.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_PWM_Init(&htim3) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim3, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sConfigOC.OCMode = TIM_OCMODE_PWM1;
+  sConfigOC.Pulse = 0;
+  sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
+  sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
+  if (HAL_TIM_PWM_ConfigChannel(&htim3, &sConfigOC, TIM_CHANNEL_4) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM3_Init 2 */
+
+  /* USER CODE END TIM3_Init 2 */
+  HAL_TIM_MspPostInit(&htim3);
 
 }
 
