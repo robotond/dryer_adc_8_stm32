@@ -130,3 +130,10 @@ Finished building: default.size.stdout
  
 Finished building: adc_probe8.list
  
+10:51:43 **** Incremental Build of configuration Debug for project adc_probe8 ****
+make -j4 all 
+arm-none-eabi-size  adc_probe8.elf 
+   text	   data	    bss	    dec	    hex	filename
+  33408	    124	   2716	  36248	   8d98	adc_probe8.elf
+Finished building: default.size.stdout
+ 
